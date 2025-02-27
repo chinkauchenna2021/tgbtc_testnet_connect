@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy":"https://testnet-rpc.tonxapi.com",
+  "proxy": "https://testnet-rpc.tonxapi.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -16,7 +16,6 @@
     "@ton/ton": "^15.1.0",
     "@tonconnect/ui-react": "^2.0.9",
     "@tonx/core": "^1.2.0",
-    "buffer": "^6.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "vite-plugin-node-polyfills": "^0.22.0",
