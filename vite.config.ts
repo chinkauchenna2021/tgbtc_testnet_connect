@@ -1,7 +1,7 @@
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 import { nodePolyfills } from "vite-plugin-node-polyfills";
-import notifier from "vite-plugin-notifier";
+// import notifier from "vite-plugin-notifier";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     mode === "development"
       ? [
         react(),
-        notifier(),
+        // notifier(),
         nodePolyfills({
           // Whether to polyfill `node:` protocol imports.
           protocolImports: true,
